@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="EigenNumpyBinder"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\pybind11\;CMake Files\pybind11\pybind11\;CMake Files\pybind11\pybind11\tools\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/pranav/CLionProjects/EigenNumpyBinder"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/pranav/CLionProjects/EigenNumpyBinder/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/pranav/CLionProjects/EigenNumpyBinder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/pranav/CLionProjects/EigenNumpyBinder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/pranav/CLionProjects/EigenNumpyBinder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/pranav/CLionProjects/EigenNumpyBinder"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/pranav/CLionProjects/EigenNumpyBinder/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/pranav/CLionProjects/EigenNumpyBinder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/pranav/CLionProjects/EigenNumpyBinder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/pranav/CLionProjects/EigenNumpyBinder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/pranav/CLionProjects/EigenNumpyBinder"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/pranav/CLionProjects/EigenNumpyBinder/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/pranav/CLionProjects/EigenNumpyBinder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/pranav/CLionProjects/EigenNumpyBinder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/pranav/CLionProjects/EigenNumpyBinder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EigenNumpyBinder">
+				<Option output="/Users/pranav/CLionProjects/EigenNumpyBinder/EigenNumpyBinder.cpython-36m-darwin.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/pranav/CLionProjects/EigenNumpyBinder"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/eigen/3.3.7/include/eigen3"/>
+					<Add directory="/Users/pranav/CLionProjects/EigenNumpyBinder/pybind11/pybind11/include"/>
+					<Add directory="/Users/pranav/anaconda/include/python3.6m"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/pranav/CLionProjects/EigenNumpyBinder/Makefile&quot;  VERBOSE=1 EigenNumpyBinder"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/pranav/CLionProjects/EigenNumpyBinder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/pranav/CLionProjects/EigenNumpyBinder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/pranav/CLionProjects/EigenNumpyBinder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EigenNumpyBinder/fast">
+				<Option output="/Users/pranav/CLionProjects/EigenNumpyBinder/EigenNumpyBinder.cpython-36m-darwin.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/pranav/CLionProjects/EigenNumpyBinder"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/eigen/3.3.7/include/eigen3"/>
+					<Add directory="/Users/pranav/CLionProjects/EigenNumpyBinder/pybind11/pybind11/include"/>
+					<Add directory="/Users/pranav/anaconda/include/python3.6m"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/pranav/CLionProjects/EigenNumpyBinder/Makefile&quot;  VERBOSE=1 EigenNumpyBinder/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/pranav/CLionProjects/EigenNumpyBinder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/pranav/CLionProjects/EigenNumpyBinder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/pranav/CLionProjects/EigenNumpyBinder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/pranav/CLionProjects/EigenNumpyBinder/EigenNumpyBinder.cpp">
+			<Option target="EigenNumpyBinder"/>
+		</Unit>
+		<Unit filename="/Users/pranav/CLionProjects/EigenNumpyBinder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/pranav/CLionProjects/EigenNumpyBinder/pybind11/pybind11/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\pybind11\pybind11\"/>
+		</Unit>
+		<Unit filename="/Users/pranav/CLionProjects/EigenNumpyBinder/pybind11/pybind11/tools/FindPythonLibsNew.cmake">
+			<Option virtualFolder="CMake Files\pybind11\pybind11\tools\"/>
+		</Unit>
+		<Unit filename="/Users/pranav/CLionProjects/EigenNumpyBinder/pybind11/pybind11/tools/pybind11Common.cmake">
+			<Option virtualFolder="CMake Files\pybind11\pybind11\tools\"/>
+		</Unit>
+		<Unit filename="/Users/pranav/CLionProjects/EigenNumpyBinder/pybind11/pybind11/tools/pybind11Tools.cmake">
+			<Option virtualFolder="CMake Files\pybind11\pybind11\tools\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
